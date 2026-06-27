@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="VNoQleIyqZCXNcLC29uV">
+    <mxGraphModel dx="2223" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GG3aVVR33aSNDu_euWsj-8" edge="1" parent="1" source="GG3aVVR33aSNDu_euWsj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GG3aVVR33aSNDu_euWsj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GG3aVVR33aSNDu_euWsj-21" connectable="0" parent="GG3aVVR33aSNDu_euWsj-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;greenButton pressed&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2571" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GG3aVVR33aSNDu_euWsj-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="off&lt;div&gt;leds off&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="GG3aVVR33aSNDu_euWsj-9" edge="1" parent="1" source="GG3aVVR33aSNDu_euWsj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GG3aVVR33aSNDu_euWsj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GG3aVVR33aSNDu_euWsj-22" connectable="0" parent="GG3aVVR33aSNDu_euWsj-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;greenButton pressed&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.15" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GG3aVVR33aSNDu_euWsj-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="heat&lt;div&gt;&lt;div&gt;if temp &amp;lt; setPoint → red LED fades&lt;/div&gt;&lt;div&gt;else → red LED solid&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="120" x="280" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="GG3aVVR33aSNDu_euWsj-51" edge="1" parent="1" source="GG3aVVR33aSNDu_euWsj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="GG3aVVR33aSNDu_euWsj-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="170" />
+              <mxPoint x="60" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GG3aVVR33aSNDu_euWsj-52" connectable="0" parent="GG3aVVR33aSNDu_euWsj-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;greenButton Pressed&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Cool off&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0333" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GG3aVVR33aSNDu_euWsj-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="cool&lt;div&gt;&lt;div&gt;if temp &amp;gt; setPoint → blue LED fades&lt;/div&gt;&lt;div&gt;else → blue LED solid&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="120" x="590" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="GG3aVVR33aSNDu_euWsj-13" parent="1" style="shape=mxgraph.basic.arc;html=1;startAngle=0.3;endAngle=0.1;endArrow=classic;endFill=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="60" width="90" x="210" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="GG3aVVR33aSNDu_euWsj-14" parent="1" style="shape=mxgraph.basic.arc;html=1;startAngle=0.3;endAngle=0.1;endArrow=classic;endFill=1;direction=north;" value="" vertex="1">
+          <mxGeometry height="85" width="105" x="330" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="GG3aVVR33aSNDu_euWsj-15" parent="1" style="shape=mxgraph.basic.arc;html=1;startAngle=0.3;endAngle=0.1;endArrow=classic;endFill=1;direction=north;" value="" vertex="1">
+          <mxGeometry height="70" width="80" x="660" y="347.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GG3aVVR33aSNDu_euWsj-16" parent="1" style="shape=mxgraph.basic.arc;html=1;startAngle=0.3;endAngle=0.1;endArrow=classic;endFill=1;" value="" vertex="1">
+          <mxGeometry height="70" width="85" x="530" y="347.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GG3aVVR33aSNDu_euWsj-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-110" y="220" />
+            </Array>
+            <mxPoint x="-110" y="220" as="sourcePoint" />
+            <mxPoint x="20" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GG3aVVR33aSNDu_euWsj-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;h1&gt;&lt;strong&gt;Thermostat State Machine Description&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre-wrap;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;The thermostat operates as a three‑state cyclic state machine consisting of &lt;strong style=&quot;&quot;&gt;OFF&lt;/strong&gt;, &lt;strong style=&quot;&quot;&gt;HEAT&lt;/strong&gt;, and &lt;strong style=&quot;&quot;&gt;COOL&lt;/strong&gt;. Pressing the &lt;strong style=&quot;&quot;&gt;green button&lt;/strong&gt; advances the system to the next state in the sequence (OFF → HEAT → COOL → OFF). From any state, the &lt;strong style=&quot;&quot;&gt;red button&lt;/strong&gt; increases the setPoint and the &lt;strong style=&quot;&quot;&gt;blue button&lt;/strong&gt; decreases it, allowing the user to adjust the desired temperature at any time. In the &lt;strong style=&quot;&quot;&gt;HEAT&lt;/strong&gt; state, the thermostat compares the current temperature to the setPoint: if the temperature is below the setPoint, the red LED fades to indicate heating demand; otherwise, it remains solid. In the &lt;strong style=&quot;&quot;&gt;COOL&lt;/strong&gt; state, the blue LED fades when the temperature is above the setPoint and becomes solid once cooling is no longer required. In the &lt;strong style=&quot;&quot;&gt;OFF&lt;/strong&gt; state, all LEDs remain off and no heating or cooling behavior is active. This state machine ensures predictable, cyclic behavior and clear visual feedback through LED indicators.&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="390" width="720" y="480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
